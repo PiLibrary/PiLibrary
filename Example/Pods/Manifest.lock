@@ -1,0 +1,16 @@
+PODS:
+  - PiLibrary (0.1.0)
+
+DEPENDENCIES:
+  - PiLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  PiLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PiLibrary: 38003a0d88c978707c2fc7c382bd1c625de68cc9
+
+PODFILE CHECKSUM: 0488de468d67b3da1f1565320d4db5b1468d0319
+
+COCOAPODS: 1.5.3

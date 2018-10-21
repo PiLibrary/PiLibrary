@@ -1,0 +1,22 @@
+{
+  "name": "PiLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of PiLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PrInCeInFiNiTy/PiLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PrInCeInFiNiTy": "ka.thavorn@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/PrInCeInFiNiTy/PiLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PiLibrary/Classes/**/*"
+}

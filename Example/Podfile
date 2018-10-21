@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PiLibrary_Example' do
+  pod 'PiLibrary', :path => '../'
+
+  target 'PiLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12B6311B2DC0782F8CAB8CCB9D3230FA /* Pods-PiLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9790B0589FD90DA0A5D678937B88D0E /* Pods-PiLibrary_Example-dummy.m */; };
+		2AE2CFD0C4582DA6D4833E0B9A7FB437 /* Pods-PiLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9680040FD1E72BE51D4746B0E21683 /* Pods-PiLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361A4A587112C03ED501FC650BD9D600 /* Pods-PiLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D717BE21528DA8E7B092BA0A62DA9C0 /* Pods-PiLibrary_Tests-dummy.m */; };
+		66B15E76EA669CD93ABD41EC650D6D40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7574489BDA3DED9A21AB5E657CD56B9B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9246CCDD9E485100EC7A0F96FF2E92 /* ReplaceMe.swift */; };
+		878DCAC9F7E604FB41CD5E178FE9E1A2 /* PiLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A0A99ED60D59EF6F735FE3E0D57B2A /* PiLibrary-dummy.m */; };
+		CB21E377D937C644083BFF3260D3C531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F26053C3C7AD8190935ED7E179234AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F278DA31E569C207119EFCD91A379325 /* PiLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B047858E65F2DB334CCC380240BB372 /* PiLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F39C616908C4C78B32FDF17314D39BCB /* Pods-PiLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7CFBAF7EE32AB7A63DF093C237F236 /* Pods-PiLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D31CF09766914EEBF856AE3B197E6D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2B88260D1DF5A432FCE594EA2F1FEC;
+			remoteInfo = PiLibrary;
+		};
+		DC3D1D23002FB9F0D20F9611359CE2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4B6463826D25E8BDF2C01441D5A5120;
+			remoteInfo = "Pods-PiLibrary_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0403EE1A678C0DC007FE905A8FDEEA12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073B8945991D748AA9AB03FD1C1096E0 /* PiLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PiLibrary-prefix.pch"; sourceTree = "<group>"; };
+		093A276C8A6F130DBEF75B74956330B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BEF10F23616BC6ED1198939F02E7D1C /* PiLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PiLibrary.modulemap; sourceTree = "<group>"; };
+		1AD39093F68D8122BA94DC4876E0681F /* Pods-PiLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PiLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B047858E65F2DB334CCC380240BB372 /* PiLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PiLibrary-umbrella.h"; sourceTree = "<group>"; };
+		26790F1C5E5632605EDAAC400285E395 /* Pods-PiLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2F7CFBAF7EE32AB7A63DF093C237F236 /* Pods-PiLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PiLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		328C5478B7F603E03F3219E33D91F12D /* Pods-PiLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PiLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
+		48AD825143AE13B49F8938DFD1BCC7AA /* PiLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PiLibrary.xcconfig; sourceTree = "<group>"; };
+		59E829685F513275FBC83EE10C13B6FC /* Pods-PiLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PiLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CA3D1033B78B963477FC34C87E40109 /* Pods-PiLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PiLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7D1C81C24721A8E31937EFD9BCD99F34 /* Pods-PiLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D567EEA32E114FC072DAAA14BDD8F47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8E4603934725D2526C6D68E4658D4B72 /* Pods-PiLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PiLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97A0A99ED60D59EF6F735FE3E0D57B2A /* PiLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PiLibrary-dummy.m"; sourceTree = "<group>"; };
+		985216988C61B84415B0614D5D69881E /* Pods-PiLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9A0324F10C60810825CD9960F976E27F /* Pods_PiLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PiLibrary_Example.framework; path = "Pods-PiLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D717BE21528DA8E7B092BA0A62DA9C0 /* Pods-PiLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PiLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		A5439EA81EB2EDE84437230F74688D07 /* Pods-PiLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PiLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4BF35632EDBFB5E3EDEB555F05B2AFC /* Pods-PiLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B9A45000E768F5737DCD39C16A95C2D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB9680040FD1E72BE51D4746B0E21683 /* Pods-PiLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PiLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
+		C9790B0589FD90DA0A5D678937B88D0E /* Pods-PiLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PiLibrary_Example-dummy.m"; sourceTree = "<group>"; };
+		CA5272F040D14C06DDE61E8226C3B43A /* Pods_PiLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PiLibrary_Tests.framework; path = "Pods-PiLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA912CB777DB4B9DAF5BF82DBF3A63B /* PiLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PiLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CE4525B35E42A4C2B1E15DDA22EDE3BD /* Pods-PiLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PiLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D33B777B4F132552DCE52860B751BDFA /* Pods-PiLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PiLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		D87735CE53BB11D8E147AAA70A735AA5 /* Pods-PiLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PiLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6F648FCAC99DD7603C568240EE78545 /* PiLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PiLibrary.framework; path = PiLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9246CCDD9E485100EC7A0F96FF2E92 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PiLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F6ECBD9B8D8D8135880630358728238F /* Pods-PiLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PiLibrary_Example-resources.sh"; sourceTree = "<group>"; };
+		FF420F94770884FB00BCFA9DFDD81100 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E2E711E0F4EA201A2E0C7B5FF768ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26053C3C7AD8190935ED7E179234AE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7A5692EF86C3373A4EDFF1F1DE9CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB21E377D937C644083BFF3260D3C531 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD988BE8D83658B77670A9CC613AC87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B15E76EA669CD93ABD41EC650D6D40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20DAC0EF04353BC39796E41013BB9A76 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FF420F94770884FB00BCFA9DFDD81100 /* LICENSE */,
+				CCA912CB777DB4B9DAF5BF82DBF3A63B /* PiLibrary.podspec */,
+				8D567EEA32E114FC072DAAA14BDD8F47 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		409B2B9FC41AC1CB28E8BD0874AA66A4 /* Pods-PiLibrary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B9A45000E768F5737DCD39C16A95C2D9 /* Info.plist */,
+				8E4603934725D2526C6D68E4658D4B72 /* Pods-PiLibrary_Example.modulemap */,
+				D87735CE53BB11D8E147AAA70A735AA5 /* Pods-PiLibrary_Example-acknowledgements.markdown */,
+				CE4525B35E42A4C2B1E15DDA22EDE3BD /* Pods-PiLibrary_Example-acknowledgements.plist */,
+				C9790B0589FD90DA0A5D678937B88D0E /* Pods-PiLibrary_Example-dummy.m */,
+				6CA3D1033B78B963477FC34C87E40109 /* Pods-PiLibrary_Example-frameworks.sh */,
+				F6ECBD9B8D8D8135880630358728238F /* Pods-PiLibrary_Example-resources.sh */,
+				BB9680040FD1E72BE51D4746B0E21683 /* Pods-PiLibrary_Example-umbrella.h */,
+				26790F1C5E5632605EDAAC400285E395 /* Pods-PiLibrary_Example.debug.xcconfig */,
+				985216988C61B84415B0614D5D69881E /* Pods-PiLibrary_Example.release.xcconfig */,
+			);
+			name = "Pods-PiLibrary_Example";
+			path = "Target Support Files/Pods-PiLibrary_Example";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63D5E60455DDE17974429423DA37DAD1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1ABC9BD16A589293C2FCEF1BBA136EF /* PiLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				63D5E60455DDE17974429423DA37DAD1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8B3DAD9C0AEC2BA7426379BB874C8642 /* Products */,
+				A1C3B2EF9721AA13FD45EF9B04911315 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B3DAD9C0AEC2BA7426379BB874C8642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6F648FCAC99DD7603C568240EE78545 /* PiLibrary.framework */,
+				9A0324F10C60810825CD9960F976E27F /* Pods_PiLibrary_Example.framework */,
+				CA5272F040D14C06DDE61E8226C3B43A /* Pods_PiLibrary_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1C3B2EF9721AA13FD45EF9B04911315 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				409B2B9FC41AC1CB28E8BD0874AA66A4 /* Pods-PiLibrary_Example */,
+				D078E3FDC6BE24790C18F0FEECC6D8F6 /* Pods-PiLibrary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A8A35049F8C06FCC65C1A076F7F79C49 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0403EE1A678C0DC007FE905A8FDEEA12 /* Info.plist */,
+				0BEF10F23616BC6ED1198939F02E7D1C /* PiLibrary.modulemap */,
+				48AD825143AE13B49F8938DFD1BCC7AA /* PiLibrary.xcconfig */,
+				97A0A99ED60D59EF6F735FE3E0D57B2A /* PiLibrary-dummy.m */,
+				073B8945991D748AA9AB03FD1C1096E0 /* PiLibrary-prefix.pch */,
+				1B047858E65F2DB334CCC380240BB372 /* PiLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PiLibrary";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D078E3FDC6BE24790C18F0FEECC6D8F6 /* Pods-PiLibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				093A276C8A6F130DBEF75B74956330B4 /* Info.plist */,
+				D33B777B4F132552DCE52860B751BDFA /* Pods-PiLibrary_Tests.modulemap */,
+				A5439EA81EB2EDE84437230F74688D07 /* Pods-PiLibrary_Tests-acknowledgements.markdown */,
+				1AD39093F68D8122BA94DC4876E0681F /* Pods-PiLibrary_Tests-acknowledgements.plist */,
+				9D717BE21528DA8E7B092BA0A62DA9C0 /* Pods-PiLibrary_Tests-dummy.m */,
+				59E829685F513275FBC83EE10C13B6FC /* Pods-PiLibrary_Tests-frameworks.sh */,
+				328C5478B7F603E03F3219E33D91F12D /* Pods-PiLibrary_Tests-resources.sh */,
+				2F7CFBAF7EE32AB7A63DF093C237F236 /* Pods-PiLibrary_Tests-umbrella.h */,
+				7D1C81C24721A8E31937EFD9BCD99F34 /* Pods-PiLibrary_Tests.debug.xcconfig */,
+				B4BF35632EDBFB5E3EDEB555F05B2AFC /* Pods-PiLibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-PiLibrary_Tests";
+			path = "Target Support Files/Pods-PiLibrary_Tests";
+			sourceTree = "<group>";
+		};
+		D1ABC9BD16A589293C2FCEF1BBA136EF /* PiLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				ED9246CCDD9E485100EC7A0F96FF2E92 /* ReplaceMe.swift */,
+				20DAC0EF04353BC39796E41013BB9A76 /* Pod */,
+				A8A35049F8C06FCC65C1A076F7F79C49 /* Support Files */,
+			);
+			name = PiLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0226BE4932FF5ADBB5E674B1E3D12939 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39C616908C4C78B32FDF17314D39BCB /* Pods-PiLibrary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0744C3D3C9AE41B8C89C3F0626A07910 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F278DA31E569C207119EFCD91A379325 /* PiLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C780E86477CF434F10F05CC8BC9DE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE2CFD0C4582DA6D4833E0B9A7FB437 /* Pods-PiLibrary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F2B88260D1DF5A432FCE594EA2F1FEC /* PiLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F953759C9377684BC84B16A2972BCB2 /* Build configuration list for PBXNativeTarget "PiLibrary" */;
+			buildPhases = (
+				0744C3D3C9AE41B8C89C3F0626A07910 /* Headers */,
+				210CD17C14ACC8E9D11E3F6E75F2773A /* Sources */,
+				6E2E711E0F4EA201A2E0C7B5FF768ED1 /* Frameworks */,
+				0A40EC765DE49873D26834B5BA54545F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiLibrary;
+			productName = PiLibrary;
+			productReference = E6F648FCAC99DD7603C568240EE78545 /* PiLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C38D2BA6485D84875151E5E239B44E3 /* Pods-PiLibrary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4D7445B20025B77BA5E724AAE34E6F /* Build configuration list for PBXNativeTarget "Pods-PiLibrary_Tests" */;
+			buildPhases = (
+				0226BE4932FF5ADBB5E674B1E3D12939 /* Headers */,
+				D91ECFFDF485758D6B6A080C7C2981E1 /* Sources */,
+				7B7A5692EF86C3373A4EDFF1F1DE9CE4 /* Frameworks */,
+				AFBE69CFC04A21389C3781043EFF1A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C32520AA88878DCCE59A13AAD9ED62E /* PBXTargetDependency */,
+			);
+			name = "Pods-PiLibrary_Tests";
+			productName = "Pods-PiLibrary_Tests";
+			productReference = CA5272F040D14C06DDE61E8226C3B43A /* Pods_PiLibrary_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4B6463826D25E8BDF2C01441D5A5120 /* Pods-PiLibrary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21430889AA274726EB51568B81C6419 /* Build configuration list for PBXNativeTarget "Pods-PiLibrary_Example" */;
+			buildPhases = (
+				50C780E86477CF434F10F05CC8BC9DE6 /* Headers */,
+				3848498F1D11F4361F0AF3C6C3E81E6B /* Sources */,
+				7CD988BE8D83658B77670A9CC613AC87 /* Frameworks */,
+				F16B36C82BEC20B3E28430DA19B9FAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9976607315CEC0D545D786D188EC904 /* PBXTargetDependency */,
+			);
+			name = "Pods-PiLibrary_Example";
+			productName = "Pods-PiLibrary_Example";
+			productReference = 9A0324F10C60810825CD9960F976E27F /* Pods_PiLibrary_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8B3DAD9C0AEC2BA7426379BB874C8642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F2B88260D1DF5A432FCE594EA2F1FEC /* PiLibrary */,
+				B4B6463826D25E8BDF2C01441D5A5120 /* Pods-PiLibrary_Example */,
+				5C38D2BA6485D84875151E5E239B44E3 /* Pods-PiLibrary_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A40EC765DE49873D26834B5BA54545F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFBE69CFC04A21389C3781043EFF1A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16B36C82BEC20B3E28430DA19B9FAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210CD17C14ACC8E9D11E3F6E75F2773A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878DCAC9F7E604FB41CD5E178FE9E1A2 /* PiLibrary-dummy.m in Sources */,
+				7574489BDA3DED9A21AB5E657CD56B9B /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3848498F1D11F4361F0AF3C6C3E81E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B6311B2DC0782F8CAB8CCB9D3230FA /* Pods-PiLibrary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91ECFFDF485758D6B6A080C7C2981E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361A4A587112C03ED501FC650BD9D600 /* Pods-PiLibrary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C32520AA88878DCCE59A13AAD9ED62E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PiLibrary_Example";
+			target = B4B6463826D25E8BDF2C01441D5A5120 /* Pods-PiLibrary_Example */;
+			targetProxy = DC3D1D23002FB9F0D20F9611359CE2D1 /* PBXContainerItemProxy */;
+		};
+		F9976607315CEC0D545D786D188EC904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PiLibrary;
+			target = 3F2B88260D1DF5A432FCE594EA2F1FEC /* PiLibrary */;
+			targetProxy = D31CF09766914EEBF856AE3B197E6D11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04E56E2C6B08D7227E98C57465818A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48AD825143AE13B49F8938DFD1BCC7AA /* PiLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PiLibrary/PiLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PiLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PiLibrary/PiLibrary.modulemap";
+				PRODUCT_MODULE_NAME = PiLibrary;
+				PRODUCT_NAME = PiLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33C5D242E021FDCCC0A7526C4E6D1EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48AD825143AE13B49F8938DFD1BCC7AA /* PiLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PiLibrary/PiLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PiLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PiLibrary/PiLibrary.modulemap";
+				PRODUCT_MODULE_NAME = PiLibrary;
+				PRODUCT_NAME = PiLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		77DC8C2D319DA0D4DC170136F8D92BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4BF35632EDBFB5E3EDEB555F05B2AFC /* Pods-PiLibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PiLibrary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PiLibrary_Tests/Pods-PiLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CAE62787E0B8608E7BD4678CB522402B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 985216988C61B84415B0614D5D69881E /* Pods-PiLibrary_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PiLibrary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PiLibrary_Example/Pods-PiLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D573A88D41145412923B27813BE26691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26790F1C5E5632605EDAAC400285E395 /* Pods-PiLibrary_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PiLibrary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PiLibrary_Example/Pods-PiLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D811B995BB1973C54A9BA4461ACF428C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1C81C24721A8E31937EFD9BCD99F34 /* Pods-PiLibrary_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PiLibrary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PiLibrary_Tests/Pods-PiLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F953759C9377684BC84B16A2972BCB2 /* Build configuration list for PBXNativeTarget "PiLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E56E2C6B08D7227E98C57465818A78 /* Debug */,
+				33C5D242E021FDCCC0A7526C4E6D1EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21430889AA274726EB51568B81C6419 /* Build configuration list for PBXNativeTarget "Pods-PiLibrary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D573A88D41145412923B27813BE26691 /* Debug */,
+				CAE62787E0B8608E7BD4678CB522402B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4D7445B20025B77BA5E724AAE34E6F /* Build configuration list for PBXNativeTarget "Pods-PiLibrary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D811B995BB1973C54A9BA4461ACF428C /* Debug */,
+				77DC8C2D319DA0D4DC170136F8D92BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

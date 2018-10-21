@@ -1,0 +1,6 @@
+framework module Pods_PiLibrary_Tests {
+  umbrella header "Pods-PiLibrary_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
