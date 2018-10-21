@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		432113F5A3F627DEA2D8B6A4 /* Pods_PiLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4460FC8C10BD3185C49C8CA3 /* Pods-PiLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiLibrary_Example/Pods-PiLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		562AE21AA77D6486F33089C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		562AE21AA77D6486F33089C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5BE0C9CADFB2224D9B04919C /* Pods-PiLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiLibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiLibrary_Tests/Pods-PiLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PiLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A9ED438A490413D3518E5E32 /* Pods_PiLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6468BD8B9D3A270998747AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C6468BD8B9D3A270998747AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E2F856FE811A98C471B461E0 /* Pods-PiLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiLibrary_Tests/Pods-PiLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EFD3AC91A10491742DDFEBDA /* PiLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PiLibrary.podspec; path = ../PiLibrary.podspec; sourceTree = "<group>"; };
+		EFD3AC91A10491742DDFEBDA /* PiLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PiLibrary.podspec; path = ../PiLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F5CB3C58A39ABA89F543C08B /* Pods-PiLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiLibrary_Example/Pods-PiLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
