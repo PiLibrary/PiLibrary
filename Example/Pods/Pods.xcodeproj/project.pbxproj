@@ -11,12 +11,13 @@
 		2AE2CFD0C4582DA6D4833E0B9A7FB437 /* Pods-PiLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9680040FD1E72BE51D4746B0E21683 /* Pods-PiLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		361A4A587112C03ED501FC650BD9D600 /* Pods-PiLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D717BE21528DA8E7B092BA0A62DA9C0 /* Pods-PiLibrary_Tests-dummy.m */; };
 		66B15E76EA669CD93ABD41EC650D6D40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7574489BDA3DED9A21AB5E657CD56B9B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9246CCDD9E485100EC7A0F96FF2E92 /* ReplaceMe.swift */; };
 		878DCAC9F7E604FB41CD5E178FE9E1A2 /* PiLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A0A99ED60D59EF6F735FE3E0D57B2A /* PiLibrary-dummy.m */; };
 		CB21E377D937C644083BFF3260D3C531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F26053C3C7AD8190935ED7E179234AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F278DA31E569C207119EFCD91A379325 /* PiLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B047858E65F2DB334CCC380240BB372 /* PiLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F39C616908C4C78B32FDF17314D39BCB /* Pods-PiLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7CFBAF7EE32AB7A63DF093C237F236 /* Pods-PiLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCDC5B01217F646B004CAD2A /* PiLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC5B00217F646B004CAD2A /* PiLibrary.swift */; };
+		FCDC5B03217F6549004CAD2A /* PiString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC5B02217F6549004CAD2A /* PiString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,27 +52,28 @@
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6CA3D1033B78B963477FC34C87E40109 /* Pods-PiLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PiLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7D1C81C24721A8E31937EFD9BCD99F34 /* Pods-PiLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8D567EEA32E114FC072DAAA14BDD8F47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8D567EEA32E114FC072DAAA14BDD8F47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8E4603934725D2526C6D68E4658D4B72 /* Pods-PiLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PiLibrary_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97A0A99ED60D59EF6F735FE3E0D57B2A /* PiLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PiLibrary-dummy.m"; sourceTree = "<group>"; };
 		985216988C61B84415B0614D5D69881E /* Pods-PiLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9A0324F10C60810825CD9960F976E27F /* Pods_PiLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PiLibrary_Example.framework; path = "Pods-PiLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0324F10C60810825CD9960F976E27F /* Pods_PiLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D717BE21528DA8E7B092BA0A62DA9C0 /* Pods-PiLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PiLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		A5439EA81EB2EDE84437230F74688D07 /* Pods-PiLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PiLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B4BF35632EDBFB5E3EDEB555F05B2AFC /* Pods-PiLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B9A45000E768F5737DCD39C16A95C2D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB9680040FD1E72BE51D4746B0E21683 /* Pods-PiLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PiLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
 		C9790B0589FD90DA0A5D678937B88D0E /* Pods-PiLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PiLibrary_Example-dummy.m"; sourceTree = "<group>"; };
-		CA5272F040D14C06DDE61E8226C3B43A /* Pods_PiLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PiLibrary_Tests.framework; path = "Pods-PiLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCA912CB777DB4B9DAF5BF82DBF3A63B /* PiLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PiLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CA5272F040D14C06DDE61E8226C3B43A /* Pods_PiLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA912CB777DB4B9DAF5BF82DBF3A63B /* PiLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PiLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE4525B35E42A4C2B1E15DDA22EDE3BD /* Pods-PiLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PiLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D33B777B4F132552DCE52860B751BDFA /* Pods-PiLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PiLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		D87735CE53BB11D8E147AAA70A735AA5 /* Pods-PiLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PiLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E6F648FCAC99DD7603C568240EE78545 /* PiLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PiLibrary.framework; path = PiLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED9246CCDD9E485100EC7A0F96FF2E92 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PiLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E6F648FCAC99DD7603C568240EE78545 /* PiLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PiLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6ECBD9B8D8D8135880630358728238F /* Pods-PiLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PiLibrary_Example-resources.sh"; sourceTree = "<group>"; };
-		FF420F94770884FB00BCFA9DFDD81100 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FCDC5B00217F646B004CAD2A /* PiLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiLibrary.swift; sourceTree = "<group>"; };
+		FCDC5B02217F6549004CAD2A /* PiString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiString.swift; sourceTree = "<group>"; };
+		FF420F94770884FB00BCFA9DFDD81100 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,12 +221,21 @@
 		D1ABC9BD16A589293C2FCEF1BBA136EF /* PiLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				ED9246CCDD9E485100EC7A0F96FF2E92 /* ReplaceMe.swift */,
+				FCDC5AFF217F6404004CAD2A /* PiLibrarySource */,
 				20DAC0EF04353BC39796E41013BB9A76 /* Pod */,
 				A8A35049F8C06FCC65C1A076F7F79C49 /* Support Files */,
 			);
 			name = PiLibrary;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		FCDC5AFF217F6404004CAD2A /* PiLibrarySource */ = {
+			isa = PBXGroup;
+			children = (
+				FCDC5B00217F646B004CAD2A /* PiLibrary.swift */,
+				FCDC5B02217F6549004CAD2A /* PiString.swift */,
+			);
+			path = PiLibrarySource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +331,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					3F2B88260D1DF5A432FCE594EA2F1FEC = {
+						LastSwiftMigration = 1000;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -370,8 +386,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDC5B01217F646B004CAD2A /* PiLibrary.swift in Sources */,
+				FCDC5B03217F6549004CAD2A /* PiString.swift in Sources */,
 				878DCAC9F7E604FB41CD5E178FE9E1A2 /* PiLibrary-dummy.m in Sources */,
-				7574489BDA3DED9A21AB5E657CD56B9B /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48AD825143AE13B49F8938DFD1BCC7AA /* PiLibrary.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -445,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48AD825143AE13B49F8938DFD1BCC7AA /* PiLibrary.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -465,8 +484,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -530,6 +548,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -659,8 +678,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
